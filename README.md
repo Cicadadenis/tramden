@@ -24,14 +24,18 @@ $ chmod +x tramden.py
 $ sudo python2 tramden.py 
 
 Далее пишем show и видем такую таблицу
-	--------------------
-	url          : None 
-	port         : 8080 
+1	--------------------
+
+2	url          : None 
+
+3	port         : 8080 
+
 	action_url   : None 
 	user_agent   : Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.0 Safari/537.36 
 	html_file    : None 
 	external_js  : None 
 	--------------------
+	
 Нужно заполнить первые 3 пункта 
 пишем команды через set
 set url << и сайт начиная с https:// >>>
