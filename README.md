@@ -39,13 +39,32 @@ $ sudo python2 tramden.py
 пишем команды через set
 
 set url << и сайт начиная с https:// >>>
+
 set port 5050
+
 set action_url   << и сайт начиная с https:// >>>
+
 run
 
 
 ГОТОВО !!!
+ Получаем такую таблицу 
+ 
+ 
+ --------------------
+	url          : https://www.facebook.com 
+	port         : 2020 
+	action_url   : https://www.facebook.com 
+	user_agent   : Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.0 Safari/537.36 
+	html_file    : None 
+	external_js  : None 
+	--------------------
+	
+
 сайт склонирован !!! 
+
+Пишем <<run>>
+	
 теперь подключаем Ngrok и готово 
 *********************************************************
 
